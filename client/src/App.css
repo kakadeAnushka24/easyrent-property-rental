@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  color: #1f2937;
+}
+
+.navbar {
+  padding: 16px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.nav-link {
+  margin-left: 15px;
+}
+
+/* Hero Section */
+.bg-light {
+  background: linear-gradient(135deg, #eef4ff, #ffffff) !important;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* Search */
+.input-group {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.input-group .form-control {
+  padding: 15px;
+  border: none;
+}
+
+.input-group .btn {
+  padding: 15px 25px;
+}
+
+/* Property Cards */
+.card {
+  border-radius: 16px !important;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card h4 {
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+}
+
+/* Features */
+#about .card {
+  background: white;
+  min-height: 180px;
+}
+
+#about .card h3 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 34px;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+}
